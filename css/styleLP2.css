@@ -1,0 +1,193 @@
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 70px;
+  padding: 0 30px;
+  color: rgb(119, 114, 114);
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.header-img {
+  width: 20%;
+}
+
+.header-nav-list {
+  display: flex;
+  margin: 30px 20px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.header-nav-item:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+main {
+  width: 80%;
+}
+
+.eyecatch {
+  height: 50vw;
+  position: relative;
+}
+
+.eyecatch-img {
+  width: 70%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+
+.eyecatch-contents {
+}
+
+.h2-text {
+  font-size: 5vw;
+  color: #8b008b;
+  font-family: "Indie Flower", cursive;
+  position: absolute;
+  top: 15%;
+  left: 23%;
+}
+
+.h2-text-bold {
+  color: #20b2aa;
+}
+
+.h3-text {
+  font-size: 1.8vw;
+  color: #8b008b;
+  position: absolute;
+  top: 50%;
+  left: 23%;
+}
+
+.h3-text-bold {
+  color: #20b2aa;
+}
+
+.p-text {
+  font-size: 1.4vw;
+  color: rgb(119, 114, 114);
+  position: absolute;
+  top: 55%;
+  left: 23%;
+}
+
+.news {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.news-ttl {
+  font-size: 1.5vw;
+  font-family: "Indie Flower", cursive;
+  color: #8b008b;
+}
+
+.news-new {
+  font-size: 2.2vw;
+  color: rgb(94, 92, 92);
+  padding-top: 10px;
+}
+
+.news-ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 2px solid rgb(187, 182, 182);
+  border-bottom: 2px solid rgb(187, 182, 182);
+}
+
+.news-li {
+  display: flex;
+  padding: 20px;
+
+  border-bottom: 1px solid rgb(187, 182, 182);
+  color: rgb(119, 114, 114);
+}
+
+.day {
+  font-size: 1.5vw;
+}
+
+.label {
+  background: #920653;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1.5vw;
+  margin: 0 3vw;
+  width: 10vw;
+  padding: 0.2vw 0;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.5vw;
+}
+
+
+.about {
+  width: 100%;
+  height: 50vh;
+  background: rgb(235, 232, 232);
+}
+
+.about-p {
+  color: #8b008b;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  padding-top: 3vw;
+}
+
+.about-h3 {
+  font-size: 1.5vw;
+  text-align: center;
+  color: rgb(94, 92, 92);
+}
+
+.about-all {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3vw;
+  width: 100%;
+}
+
+.about-content {
+  display: block;
+  color:rgb(119, 114, 114);
+  
+}
+
+.about-p2 {
+  margin-bottom: 20px;
+  font-size: 1.6vw;
+}
+
+.about-p3 {
+  font-size: 1.6vw;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.about-img {
+  width: 30vw;
+
+}
+
+
+
